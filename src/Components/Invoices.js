@@ -164,8 +164,8 @@ export default function Invoices() {
                     </tr>
                 </thead>
                 <tbody>
-                    {data.map(item =>
-                        <tr>
+                    {data.map((item,index) =>
+                        <tr key={index}>
                             <td className="border border-blue-dark bg-blue-white text-blue-bg text-l p-2">{item.productName}</td>
                             <td className="border border-blue-dark bg-blue-white text-blue-bg text-l p-2">{item.quantity}</td>
                             <td className="border border-blue-dark bg-blue-white text-blue-bg text-l p-2"><span className="text-xs">Rs.</span> {item.totalPrice}</td>
