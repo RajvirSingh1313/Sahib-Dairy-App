@@ -1,6 +1,29 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Sahib Dairy",
+  "name": "Sahib Dairy App",
+  "start_url": ".",
+  "shortcuts": [
+    {
+      "name": "Billing",
+      "short_name": "Billing",
+      "url": "/"
+    },
+    {
+      "name": "Invoices",
+      "short_name": "Invoices",
+      "url": "/invoices"
+    },
+    {
+      "name": "Facts",
+      "short_name": "Facts",
+      "url": "/facts"
+    },
+    {
+      "name": "Stocks",
+      "short_name": "Stocks",
+      "url": "/stocks"
+    }
+  ],
   "icons": [
     {
       "src": "favicon.ico",
@@ -9,17 +32,18 @@
     },
     {
       "src": "logo192.png",
+      "sizes": "192x192",
       "type": "image/png",
-      "sizes": "192x192"
+      "purpose": "any maskable"
     },
     {
       "src": "logo512.png",
+      "sizes": "512x512",
       "type": "image/png",
-      "sizes": "512x512"
+      "purpose": "any maskable"
     }
   ],
-  "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#6FC2FF",
+  "background_color": "#49597A"
 }
