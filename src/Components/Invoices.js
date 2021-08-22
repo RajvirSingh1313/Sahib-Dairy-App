@@ -180,12 +180,12 @@ export default function Invoices() {
             <div className="flex w-full justify-center">
                 <button className="rounded bg-blue-dark text-white p-2 m-2" onClick={() => {
                     var headers = {
-                        index: "Index",
                         productName:"Product Name",
                         quantity: "Quantity",
                         customer:"Customer",
                         totalPrice:"Total Price",
-                        time:"Time"
+                        time:"Time",
+                        index: "Index"
                     };
 
                     exportCSVFile(headers, data, "data"); // call the exportCSVFile() function to process the JSON and trigger the download

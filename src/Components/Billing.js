@@ -24,7 +24,7 @@ export default function Billing() {
     }, []);
 
     const handleChangeQuantity = e => {
-        if (e.target.value <= 0) {
+        if (parseInt(e.target.value) <= 0) {
             setStockIsFinish("Wrong Input");
         } else {
             setStockIsFinish("")
@@ -32,7 +32,7 @@ export default function Billing() {
         setQuantity(e.target.value);
         products.forEach(element => {
             if (element.name === productName) {
-                if (e.target.value >= element.stocks) {
+                if (parseInt(e.target.value) >= parseInt(element.stocks)) {
                     setStockIsFinish("Stock is finished")
                 } else {
                     setStockIsFinish("")
@@ -84,7 +84,7 @@ export default function Billing() {
                         setProductName(e.target.value);
                         products.forEach(element => {
                             if (element.name === e.target.value) {
-                                if (element.stocks <= 0) {
+                                if (parseInt(element.stocks) <= 0) {
                                     setStockIsNotAvaiable("Stock is not available");
                                 }
                                 else {

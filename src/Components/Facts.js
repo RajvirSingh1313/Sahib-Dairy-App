@@ -116,8 +116,8 @@ export default function Facts() {
                 <h1 className="m-2 text-xl"><span className="font-semibold">Total Sale of the Day :-</span> Rs.{totalSaleOfDay}</h1>
                 <h1 className="m-2 text-xl"><span className="font-semibold">Total Sale of the Month :-</span> Rs.{totalSaleOfMonth}</h1>
                 <h1 className="m-2 text-xl"><span className="font-semibold">Total Sale of the Year :-</span> Rs.{totalSaleOfYear}</h1>
-                <h1 className="m-2 text-xl"><span classname="font-semibold">Most Returning Customers :-</span> <ul className="ml-32">{count_duplicate(mostReturningCustomers).map((item, index) => <li className="list-disc" key={index}>{item[1]}</li>)}</ul></h1>
-                <h1 className="m-2 text-xl"><span classname="font-semibold">Stocks Left :-</span> <ul className="ml-32">{listOfStocksLeft.map((item, index) => <li className="list-disc" key={index}>{item[1]} - {item[0]}</li>)}</ul></h1>
+                <h1 className="m-2 text-xl"><span className="font-semibold">Most Returning Customers :-</span> <ul className="ml-32">{count_duplicate(mostReturningCustomers).map((item, index) => <li className="list-disc" key={index}>{item[1]}</li>)}</ul></h1>
+                <h1 className="m-2 text-xl"><span className="font-semibold">Stocks Left :-</span> <ul className="ml-32">{listOfStocksLeft.map((item, index) => <li className="list-disc" key={index}>{item[1]} - {item[0]}</li>)}</ul></h1>
             </div>
         </div>
     )
