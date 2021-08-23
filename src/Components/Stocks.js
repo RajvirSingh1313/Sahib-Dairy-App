@@ -57,8 +57,8 @@ export default function Stocks() {
                         }
                     })
                     StocksDB.setItem("Stocks", items);
+                    setData(items);
                 })
-                window.location = "/stocks";
             }} className="rounded bg-blue-dark text-white p-1">Delete Item</button>
         </div>
     )

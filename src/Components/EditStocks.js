@@ -2,12 +2,15 @@ import Navbar from "./Navbar";
 import { useParams } from "react-router";
 import { useState,useEffect } from "react";
 import { StocksDB } from "../database";
+import { useHistory } from "react-router-dom";
 
 export default function EditStocks() {
     const { id } = useParams();
     const [productName, setProductName] = useState("");
     const [pricePerStock, setPricePerStock] = useState(0);
     const [InitalStock, setInitalStock] = useState(0);
+
+    const history = useHistory();
 
     useEffect(() => {
         StocksDB.getItem("Stocks").then(items=>{
@@ -45,7 +48,7 @@ export default function EditStocks() {
                         }
                         console.log(items);
                         StocksDB.setItem("Stocks",items);
-                        window.location="/stocks"
+                        history.goBack();
                     })
                 }} className="rounded bg-blue-dark p-2">Procced</button>
             </div>
