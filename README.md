@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# Sahib Dairy App
+### I know it is client's property but i did that for free so I can share with community, and I need to repay my debt from community on me as open source community helped me alot, all the data is saved in the IndexedDB
+
+<img src="https://github.com/RajvirSingh1313/Sahib-Dairy-App/blob/master/public/ReadmeBanner.png"/>
+
+# Why?
+One day I decided to do some favor for dairy owner as he done for me too, thats it and you would be like wtf, how can you just give it away as anybuddy can steal his data then jokes on you, I used IndexedDB lol.
+
+# How to use it
+First get a dairy shop then call me to get permission, thats it. And app it is self explaining, And all stockes unit is equal to kgs and if you are in country where you guys use lbs or something like that then also you can just use it fine.
+
+Thats it
+
+# How to start it
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
