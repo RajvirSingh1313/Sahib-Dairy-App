@@ -1,7 +1,8 @@
 # Sahib Dairy App
-### I know it is a client's property but i did that for free so I can share with community, and I need to repay my debt from community on me as open source community helped me alot, all the data is saved in the IndexedDB
 
 <img src="https://github.com/RajvirSingh1313/Sahib-Dairy-App/blob/master/public/ReadmeBanner.png"/>
+
+### I know it is a client's property but I did that for free so I can share it with the community, and I need to repay my debt from the community on me as the open-source community helped me a lot, all the data is saved in the IndexedDB. Btw I coded the design like hardcore it is not optimized for desktop as my client was needing it as a PWA and he is using iPhone 8+ so it is optimized specifically for the 8+
 
 # Why?
 One day I decided to do some favor for dairy owner as he done for me too, thats it and you would be like wtf, how can you just give it away as anybuddy can steal his data then jokes on you, I used IndexedDB lol.
