@@ -1,5 +1,5 @@
 # Sahib Dairy App
-### I know it is client's property but i did that for free so I can share with community, and I need to repay my debt from community on me as open source community helped me alot, all the data is saved in the IndexedDB
+### I know it is a client's property but i did that for free so I can share with community, and I need to repay my debt from community on me as open source community helped me alot, all the data is saved in the IndexedDB
 
 <img src="https://github.com/RajvirSingh1313/Sahib-Dairy-App/blob/master/public/ReadmeBanner.png"/>
 
